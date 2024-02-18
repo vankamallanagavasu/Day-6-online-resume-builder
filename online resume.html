@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Online Resume Builder</title>
+</head>
+<body>
+
+  <header>
+    <h1 align="center">Online Resume Builder</h1>
+  </header>
+  
+
+  <form id="resumeForm">
+    <!-- Personal Information Section -->
+    <section>
+      <h2>Personal Information</h2>
+      <label for="fullName">Full name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="ADDRESS">Address:</label>
+      <input type="" id="text" name="ADDRESS" required>
+
+      <label for="CITY">City:</label>
+      
+
+      <input type="" id="text" name="datetime-local" required>
+      
+    </section   >
+
+    <!-- Work Experience Section -->
+    <section>
+      <h2>Work Experience</h2>
+      <label for="fullName">Company:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="fullName">Position title:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="fullName">Start date:</label>
+      <input type="date" id="fullName" name="fullName" >
+
+      <label for="fullName">End date:</label>
+      <input type="date" id="fullName" name="fullName" >
+
+      <!-- Add fields for work experience, e.g., job title, company, dates, etc. -->
+    </section>
+
+    <!-- Education Section -->
+    <section>
+      <h2>Education</h2>
+      <label for="fullName">Country:</label>
+      
+      <select name="Courses">
+        <option></option>
+        <option name="text"> Afganistan</option>
+        <option name="text"> albania</option>
+        <option name="text"> algeria</option>
+        <option name="text">belarus</option>
+        <option name="text"> bahrain</option>
+        <option name="text"> india </option>
+        <option name="text">japan</option>
+        <option name="text"> kenya</option>
+        <option name="text"> libya</option>
+        <option name="text"> malaysia</option>
+        </select>
+
+      <label for="fullName">Education Degree:</label>
+      <select name="Courses">
+        <option></option>
+        <option name="text"> post graduate</option>
+        <option name="text"> graduate</option>
+        <option name="text"> intermediate</option>
+        <option name="text"> school</option>
+       
+        </select>
+
+      <label for="fullName">Specialization:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="fullName">institution:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="fullName">Degree in process:</label>
+     <select name="Courses">
+        <option></option>
+      <option name="text"> yes</option>
+      <option name="text"> no</option>
+     
+     
+      </select>
+       <!-- Add fields for education, e.g., degree, school, dates, etc. -->
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+      <h2>Skills</h2>
+      <label for="fullName"> PROGRAM:</label>
+      
+      <select name="Courses">
+        <option></option>
+        <option name="java"> java</option>
+        <option name="java"> database</option>
+        <option name="oracle"> oracle</option>a
+        <option name="python"> python</option>
+        <option name="react"> react</option>
+        </select>
+
+      <!-- Add fields for skills, e.g., list of skills -->
+    </section>
+
+
+  <!-- Preview Section -->
+<section>
+    <h2>Preview</h2>
+    <div id="resumePreview" class="preview-container"></div>
+  </section>
+  
+
+    <!-- Save and Download Buttons -->
+    <sec>
+      <button type="button" onclick="generateResume()">Generate Preview</button>
+      <button type="submit" onclick="saveResume()">Save Resume</button>
+      <button type="submit" onclick="downloadResume()">Download Resume</button>
+    </sec>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
